@@ -9,7 +9,7 @@ public class Browser {
 
 	WebDriver driver;
 	public WebDriver initializeDriver(String url) {
-		System.setProperty("webdriver.chrome.driver", "D:\\eclipse\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver =  new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
