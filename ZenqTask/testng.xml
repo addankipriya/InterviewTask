@@ -1,0 +1,18 @@
+<suite name="Interview Task">
+	<test name="Dropbox">
+		<classes>
+			<class name="com.dropbox.tests.DropBoxTests" />
+		</classes>
+	</test>
+	<test name="Make My Trip">
+		<classes>
+			<class name="com.makemytrip.tests.MakeMyTripTests" />
+		</classes>
+	</test>
+	<test name="Amazon">
+		<classes>
+			<class name="com.amazon.tests.AmazonTests" />
+		</classes>
+	</test>
+	
+</suite>

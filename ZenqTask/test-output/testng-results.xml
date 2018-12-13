@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Interview Task" duration-ms="130836" started-at="2018-12-13T18:23:12Z" finished-at="2018-12-13T18:25:23Z">
+    <groups>
+    </groups>
+    <test name="Dropbox" duration-ms="77094" started-at="2018-12-13T18:23:12Z" finished-at="2018-12-13T18:24:29Z">
+      <class name="com.dropbox.tests.DropBoxTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dropbox.tests.DropBoxTests@3234e239]" name="setUp" is-config="true" duration-ms="14636" started-at="2018-12-13T23:53:12Z" finished-at="2018-12-13T23:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logindropbox()[pri:1, instance:com.dropbox.tests.DropBoxTests@3234e239]" name="logindropbox" duration-ms="47587" started-at="2018-12-13T23:53:27Z" finished-at="2018-12-13T23:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindropbox -->
+        <test-method status="PASS" signature="verifyFileUpload()[pri:2, instance:com.dropbox.tests.DropBoxTests@3234e239]" name="verifyFileUpload" duration-ms="14749" started-at="2018-12-13T23:54:15Z" finished-at="2018-12-13T23:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUpload -->
+      </class> <!-- com.dropbox.tests.DropBoxTests -->
+    </test> <!-- Dropbox -->
+    <test name="Make My Trip" duration-ms="31510" started-at="2018-12-13T18:24:30Z" finished-at="2018-12-13T18:25:02Z">
+      <class name="com.makemytrip.tests.MakeMyTripTests">
+        <test-method status="PASS" signature="signupTest()[pri:0, instance:com.makemytrip.tests.MakeMyTripTests@44c8afef]" name="signupTest" duration-ms="31494" started-at="2018-12-13T23:54:30Z" finished-at="2018-12-13T23:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+      </class> <!-- com.makemytrip.tests.MakeMyTripTests -->
+    </test> <!-- Make My Trip -->
+    <test name="Amazon" duration-ms="21181" started-at="2018-12-13T18:25:02Z" finished-at="2018-12-13T18:25:23Z">
+      <class name="com.amazon.tests.AmazonTests">
+        <test-method status="PASS" signature="shopByItem()[pri:0, instance:com.amazon.tests.AmazonTests@50d0686]" name="shopByItem" duration-ms="21166" started-at="2018-12-13T23:55:02Z" finished-at="2018-12-13T23:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopByItem -->
+      </class> <!-- com.amazon.tests.AmazonTests -->
+    </test> <!-- Amazon -->
+  </suite> <!-- Interview Task -->
+</testng-results>

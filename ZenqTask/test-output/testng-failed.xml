@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Interview Task]">
+  <test name="Dropbox(failed)">
+    <classes>
+      <class name="com.dropbox.tests.DropBoxTests">
+        <methods>
+          <include name="logindropbox"/>
+          <include name="setUp"/>
+          <include name="verifyFileUpload"/>
+        </methods>
+      </class> <!-- com.dropbox.tests.DropBoxTests -->
+    </classes>
+  </test> <!-- Dropbox(failed) -->
+</suite> <!-- Failed suite [Interview Task] -->
